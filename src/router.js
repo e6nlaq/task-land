@@ -1,7 +1,8 @@
 // import { createApp } from 'vue';
 import { createRouter, createWebHistory } from 'vue-router';
-import IndexPages from './components/IndexPages.vue';
-import RouterTest from './components/RouterTest.vue';
+import TaskListVue from './components/TaskList.vue';
+import SettingPageVue from './components/SettingPage.vue';
+import PointStationVue from './components/PointStation.vue';
 
 // const app = createApp({});
 
@@ -28,12 +29,17 @@ const routes = [
 	{
 		path: '/',
 		name: 'index',
-		component: IndexPages
+		component: TaskListVue
 	},
 	{
-		path: '/test',
-		name: 'test',
-		component: RouterTest
+		path: '/setting',
+		name: 'setting',
+		component: SettingPageVue
+	},
+	{
+		path: '/point',
+		name: 'point',
+		component: PointStationVue
 	}
 ]
 
