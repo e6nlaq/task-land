@@ -26,12 +26,12 @@ import RouterTest from './components/RouterTest.vue';
 
 const routes = [
 	{
-		path: '/',
+		path: '/task-land',
 		name: 'index',
 		component: IndexPages
 	},
 	{
-		path: '/test',
+		path: '/task-land/test',
 		name: 'test',
 		component: RouterTest
 	}
