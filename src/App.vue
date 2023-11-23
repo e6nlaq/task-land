@@ -3,10 +3,10 @@
     <div id="nav" class="tab-area-base">
       <ul class="tab-menu-base">
         <li>
-          <RouterLink to="/">Home</RouterLink>
+          <RouterLink to="/task-land">Home</RouterLink>
         </li>
         <li>
-          <RouterLink to="/test">Rounting Test</RouterLink>
+          <RouterLink to="/task-land/test">Rounting Test</RouterLink>
         </li>
       </ul>
     </div>
@@ -14,18 +14,6 @@
     <RouterView />
   </div>
 </template>
-
-<!-- <script>
-import IndexPages from './components/IndexPages.vue';
-
-export default {
-  name: 'App',
-  components: {
-    IndexPages
-  }
-}
-</script> -->
-
 
 <!--
 MIT License
