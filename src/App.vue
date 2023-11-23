@@ -3,10 +3,10 @@
     <div id="nav" class="tab-area-base">
       <ul class="tab-menu-base">
         <li>
-          <RouterLink to="/task-land">Home</RouterLink>
+          <RouterLink to="/">Home</RouterLink>
         </li>
         <li>
-          <RouterLink to="/task-land/test">Rounting Test</RouterLink>
+          <RouterLink to="/test">Rounting Test</RouterLink>
         </li>
       </ul>
     </div>
